@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrar</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js"></script>
+  </head>
+  <body>
+    <div id="menu">
+      <h1 id="title">Registro de Usuario</h1>
+      <div id="inputs">
+        <h2 class="name" id="nameTitle">Nome</h2>
+        <input oninput="this.value = this.value.replace(/[^a-zA-Z]/g, '')" placeholder="Digite seu nome" class="name" id="nameInput" type="text" />
+        <h2 class="old" id="oldTitle">Idade</h2>
+        <input placeholder="Digite sua idade" class="old" id="oldInput" type="number" />
+        <button id="submit" onclick="registar()">Registar</button>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>
