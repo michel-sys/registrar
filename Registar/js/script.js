@@ -16,3 +16,4 @@ function registar() {
         alert("Já existe um usuario com esta idade!")
     }
 }
+
